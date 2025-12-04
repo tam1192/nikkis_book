@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.folder == "book/まいえんじぇるなメスガキ野郎/part"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - part
